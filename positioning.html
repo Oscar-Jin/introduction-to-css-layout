@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning</title>
+    <style>
+      ul {
+        display: flex;
+        list-style: none;
+      }
+
+      li {
+        border: 1px solid green;
+        margin: 0 0.2rem;
+      }
+
+      div.g {
+        border: 1px solid green;
+        height: 50px;
+        margin: 0.5rem;
+      }
+
+      div.r {
+        border: 1px solid red;
+        height: 50px;
+        margin: 0.5rem;
+        position: relative;
+        left: 1rem;
+      }
+
+      div.a {
+        border: 1px solid orangered;
+        height: 50px;
+        margin: 0.5rem;
+        position: absolute;
+        /* top: 3px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Positioning</h1>
+    <ul>
+      <li>Static</li>
+      <li>Relative</li>
+      <li>Absolute</li>
+      <li>Fixed</li>
+      <li>Sticky</li>
+    </ul>
+    <div style="border: 1px solid black">
+      <div class="g"></div>
+      <div class="r"></div>
+      <div class="g"></div>
+    </div>
+
+    <br /><br />
+
+    <div style="border: 1px solid gray">
+      <div class="g"></div>
+      <div class="a"></div>
+      <div class="g"></div>
+    </div>
+  </body>
+</html>

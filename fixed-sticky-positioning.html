@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Sticky Positioning</title>
+    <style>
+      p {
+        border: 1px solid blue;
+      }
+
+      p.f {
+        border: 1px solid salmon;
+        position: fixed;
+        background-color: whitesmoke;
+      }
+
+      p.s {
+        border: 1px solid firebrick;
+        position: sticky;
+        background-color: seashell;
+        top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Fixed Sticky Positioning</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+      expedita optio autem perspiciatis ex, voluptas, quaerat velit cumque
+      dolore cupiditate libero quia ipsam culpa est ab ad quasi. Hic, pariatur.
+    </p>
+    <p class="f">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, dicta
+      fugit nemo enim minima repellendus, beatae ipsa architecto nihil cumque
+      commodi reiciendis rerum ratione ab quas alias cum? Quas, numquam?
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. At numquam
+      quaerat explicabo possimus natus magni sapiente consequuntur est, totam
+      cupiditate aperiam obcaecati itaque nobis ratione rerum vero minima
+      praesentium veniam!
+    </p>
+    <p class="s">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+      repudiandae perspiciatis rem doloremque, itaque quisquam ut iste delectus
+      velit saepe quas fugit labore sequi officia amet quibusdam inventore
+      placeat exercitationem!
+    </p>
+
+    <div style="height: 100vh"></div>
+  </body>
+</html>
